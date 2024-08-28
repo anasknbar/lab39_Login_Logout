@@ -1,4 +1,5 @@
 import { books } from "@/app/data/books_data"
+
 export default function Book_cards(){
 
   const sortedBooks = books.sort((a, b) => a.title.localeCompare(b.title));
